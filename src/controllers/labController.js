@@ -14,10 +14,6 @@ exports.cadastrarNovo = (req, res) => {
   const tempFilePath = path.join("/tmp", "labs.json");
   fs.writeFileSync(tempFilePath, JSON.stringify(laboratorios, null, 2));
 
-  fs.copyFileSync(tempFilePath, "src/data/labs.json");
-
-  fs.unlinkSync(tempFilePath);
-
   res.status(201).json({ message: "Laboratório cadastrado com sucesso!" });
 };
 
