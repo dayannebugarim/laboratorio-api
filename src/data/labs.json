@@ -13,5 +13,20 @@
     "nome": "Laboratório C",
     "capacidade": 20,
     "descricao": "Laboratório de Biologia"
+  },
+  {
+    "nome": "Laboratório D",
+    "capacidade": 15,
+    "descricao": "Laboratório de Informática"
+  },
+  {
+    "nome": "Laboratório E",
+    "capacidade": 40,
+    "descricao": "Laboratório de Engenharia"
+  },
+  {
+    "nome": "Laboratório F",
+    "capacidade": 18,
+    "descricao": "Laboratório de Eletrônica"
   }
 ]
