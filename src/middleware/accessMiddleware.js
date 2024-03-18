@@ -3,9 +3,6 @@ module.exports = (req, res, next) => {
   const now = new Date().toLocaleString("en-US", { timeZone: timezone });
   const hour = new Date(now).getHours();
 
-  console.log(now);
-  console.log(hour);
-
   if (hour >= 8 && hour < 17) {
     next();
   } else {
