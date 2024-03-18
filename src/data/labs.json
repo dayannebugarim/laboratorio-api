@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Laboratório A",
+    "capacidade": 30,
+    "descricao": "Laboratório de Química"
+  },
+  {
+    "nome": "Laboratório B",
+    "capacidade": 25,
+    "descricao": "Laboratório de Física"
+  },
+  {
+    "nome": "Laboratório C",
+    "capacidade": 20,
+    "descricao": "Laboratório de Biologia"
+  }
+]
